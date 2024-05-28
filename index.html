@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather APP</title>
+    <link rel="stylesheet" href="weather.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+<body>
+    
+    <div class="container">
+        <div class="searchBox">
+            <input class="searchInput" type="text" placeholder="Search">
+            <button class="searchButton" href="#">
+                <i class="material-icons">
+                    search
+                </i>
+            </button>
+        </div>
+        <div class="header">
+            <img src="svgs/location_on_24dp_FILL0_wght400_GRAD0_opsz24.svg" alt="location svg">
+            <div class="location">
+                <p class="city">Boston</p>
+            </div>
+        </div>
+        <div class="region">
+            <span class="state">Massachusetts, </span>
+            <span class="country">USA</span>
+        </div>
+        <div class="temperature">
+            <p class="temp">24º</p>
+            <div class="degree">
+                <span class="celsius">C</span>
+                <span class="farenheit">F</span>
+            </div>
+        </div>
+        <div class="tempDesc">Clear</div>
+        <div class="blockTwo">
+            <div class="feels">
+                <p>Temperature</p>
+                <span class="realTemp">37º</span>
+                <p>Feels like</p>
+                <span class="feelsLike">34º</span>
+            </div>
+            <div class="maxMin">
+                <h4>On the day</h4>
+                <div class="max">
+                    <img src="svgs/arrow_upward_24dp_FILL0_wght400_GRAD0_opsz24.svg">
+                    <p>Max</p>
+                    <span>37º</span>
+                </div>
+                <div class="min">
+                    <img src="svgs/arrow_downward_24dp_FILL0_wght400_GRAD0_opsz24.svg">
+                    <p>Min</p>
+                    <span>28º</span>
+                </div>
+            </div>
+        </div>
+        <div class="blockThree">
+            <div class="humid">
+                <p>Humidity</p>
+                <span class="humidity">11%</span>
+            </div>
+            <div class="pressure">
+                <p>Pressure</p>
+                <span class="mBar">1006 mBar</span>
+            </div>
+            <div class="visibility">
+                <p>Visibility</p>
+                <span class="vis">6 km</span>
+            </div>
+            <div class="wind">
+                <p>Wind Speed</p>
+                <span class="winSpeed">16.67 km/h</span>
+            </div>
+        </div>
+        <div class="blockFour">
+            <div class="sunrise">
+                <p>Sunrise:</p>
+                <span>5:32 am</span>
+            </div>
+            <div class="theSun">
+                <img src="svgs/sunny_3222691.png">
+            </div>
+            <div class="sunset">
+                <p>Sunset: </p>
+                <span>7:40 pm</span>
+            </div>
+        </div>
+    </div>
+    
+    <script type="module" src="weather.js"></script>
+</body>
+</html>
